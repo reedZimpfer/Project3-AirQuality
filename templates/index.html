@@ -11,6 +11,7 @@
      crossorigin=""/>
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>  
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
@@ -27,10 +28,10 @@
   </div>
     <style>
       h1{
-         color: rgba(36, 30, 208, 0.611);
+         color: rgba(20, 13, 213, 0.731);
       }
       h3{
-         color: rgba(21, 18, 131, 0.611);
+         color: rgba(138, 14, 14, 0.611);
       }
    </style>
 </head>
@@ -51,6 +52,8 @@
   </div>
     <!-- The div that holds our map -->
     <div id="map" style="height: 480px"></div>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
     <div class="container">
       <div class="row">
         <div class="col-md-12 jumbotron text-center">
@@ -59,6 +62,8 @@
         </div>
       </div>
     <div id="bar" style="height: 360px"></div>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
     <div class="container">
       <div class="row">
         <div class="col-md-12 jumbotron text-center">
@@ -67,8 +72,37 @@
         </div>
       </div>
     <div id="bar1" style="height: 360px"></div>
+    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 sjumbotron text-center">
+          <h3>NO2 Trend plot 1</h3>
+        </div>
+      </div>
+    <div id="plot1" style="height: 360px"></div>
+    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h3>PM2.5 Trend plot 2</h3>
+        </div>
+      </div>
+    <div id="plot2" style="height: 360px"></div>
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
     <!-- Our JavaScript -->
     <script src='static/js/logic.js'></script>
     <script src='static/js/bar.js'></script>
+    <script src="static/js/no2.js"></script>
+    <script src="static/js/pm2.js"></script>
+    
+    
 </body>
 </html>

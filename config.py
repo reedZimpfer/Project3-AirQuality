@@ -1,1 +1,1 @@
-api_key = "00904f03a4b545c1b087c0f5c9161743"
+api_key = "Your geoapify API Key here!"
